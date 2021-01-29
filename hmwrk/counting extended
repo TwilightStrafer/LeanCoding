@@ -4,6 +4,11 @@ c=int(c)
 print("select number 2 which is larger than 1")
 d=input()
 d=int(d)
+
+if d<c: 
+  print("please rerun")
+  exit()  
+
 a=c
 b=0
 while (a <= d ):  
@@ -11,4 +16,3 @@ while (a <= d ):
   a=a+1 
   
 print(b)
-    
