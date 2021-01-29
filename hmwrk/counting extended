@@ -1,7 +1,7 @@
 print("select number 1")
 c=input()
 c=int(c)
-print("select number 2 which is larger than 1")
+print("select number 2; larger than 1")
 d=input()
 d=int(d)
 
