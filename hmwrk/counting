@@ -1,0 +1,6 @@
+a=0
+b=a
+while (a < 100):
+	a=a+1  
+	if (a%2==0):b=b+a
+print(b)    
